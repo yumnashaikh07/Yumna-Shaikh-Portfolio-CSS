@@ -1,0 +1,138 @@
+
+.title{
+    font-size: 1.875rem; 
+    line-height: 2.25rem;
+    font-weight: 700; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    margin-top: 0.75rem;   
+    padding: 1.25rem;      
+    color: black; 
+    display: flex;
+}
+
+.emailicon{
+  
+    transition: color 0.3s;
+    color: #4db564; 
+}.emailicon:hover {color: white;}
+
+
+.linkedinicon {
+    color: #0077b5; 
+    margin-left: 40px;    
+   
+}.linkedinicon:hover {color: white;}
+
+.phoneicon {
+    color: #1d72b8; 
+     margin-left: 40px;
+}.phoneicon:hover {color: white;}
+
+.githubicon{
+    margin-left: 40px;
+    color: #463976;
+    
+}.githubicon:hover {color: white;}
+
+
+
+.linksection{
+    font-weight: 600;       
+    color: black;         
+    display: flex;
+}
+
+.linkemail{
+    margin-left: 12px; 
+    transition: color 0.3s;
+}.linkemail:hover {color: #1f4676;}
+
+.linklinkein{
+    margin-left: 20px;
+    transition: color 0.3s;
+}.linklinkedin:hover {color: #1f4676;}
+    
+.linkphone{
+    transition: color 0.3s;
+    margin-left: 20px;
+}.linkphone:hover {color: #1f4676; }
+
+.linkgithub{
+    transition: color 0.3s;
+    margin-left: 2px;
+    }.linkgithub:hover {color: #1f4676; }
+        
+        @media (min-width: 768px) {
+            .title {
+                margin-left: 56px;
+            }
+            .emailicon{
+                margin-left: 40px;
+            }
+            .phoneicon{
+                margin-right: 40px;
+            }
+            .githubicon{
+                margin-left: 0;
+            }
+            .linkemail {
+                margin-left: 56px;
+            }
+            .linklinkedin{
+                margin-left: 20px;
+            }
+        .linkgithub{
+            margin-left:20px;
+        }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styling for larger screens */
+@media (max-width: 768px) {
+    .title{
+        margin-left: auto;   /* Tailwind mx-auto */
+        margin-right: auto;
+    }
+    .icon-link {
+        margin-left: 2.5rem;  /* Tailwind md:ml-10 */
+    }
+
+    .linkedinicon {
+      margin-left:40px ;   
+    }
+
+    .phoneicon {
+            margin-left:40px ; 
+    }
+
+    .githubicon {
+       margin-left: 32 
+    }
+    .linkemail{  
+         margin-left: 12px   
+    }
+    .linklinkedin{
+        margin-left :20px; 
+    }
+    .linkphone{
+        margin-left :20px;}
+    .linkgithub{
+        margin-left :20px;}
+}

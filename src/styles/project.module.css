@@ -1,0 +1,11 @@
+.section{
+    gap:16px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+@media (min-width: 768px) {
+    .section{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}

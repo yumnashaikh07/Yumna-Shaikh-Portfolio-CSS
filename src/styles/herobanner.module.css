@@ -1,0 +1,64 @@
+/* Basic layout for centering the main content */
+main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for the header section */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f4676;  /* Tailwind bg-[#1f4676] */
+    color: #d4d3ca;              /* Tailwind text-[#d4d3ca] */
+    height: 44px;                /* Tailwind h-11 */
+    position: relative;
+}
+
+/* Styling for the header text */
+.headertext {
+    text-align: center;
+    font-size: 1.25rem;          /* Tailwind text-xl */
+    font-weight: bold;           /* Tailwind font-bold */
+    transition: transform 0.5s;  /* Tailwind transition-transform duration-500 */
+}
+
+.headertext:hover {
+    transform: scale(1.05);      /* Tailwind hover:scale-105 */
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+
+.prevbtn {
+    position: absolute;
+    left: 1rem;               
+    font-size: 2rem;             
+    
+    width: 4rem;                 
+    
+    font-weight: 600;            
+    transition: transform 0.3s;
+}
+
+.prevbtn:hover {
+    transform: scale(1.25);      
+}
+
+.nextbtn {
+    position: absolute;
+    right: 1rem;                
+    font-size: 2rem;             
+    width: 4rem;                 
+    font-weight: 600;         
+    transition: transform 0.3s;
+}
+
+.nextbtn:hover {
+    transform: scale(1.25);     
+}

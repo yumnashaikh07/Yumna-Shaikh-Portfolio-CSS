@@ -1,0 +1,134 @@
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px ;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+
+}
+.img{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+.herodiv{
+    display: flex;  
+    flex-direction: column;  
+    overflow: hidden;    
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.heroslide{
+
+    transform: translateX(100%); 
+    animation: slideIn 3s forwards;
+    }
+    @keyframes slideIn {
+    0%{
+      transform: translateX(100%);
+      opacity:0
+    }
+    100%{
+      transform: translateX(0%);
+      opacity:1
+    }}
+.divh1{
+    font-size: 30px;
+    line-height: 36px ;
+    margin-bottom:12px ;
+    font-weight:100;
+    color: #1f4676;
+}
+.divider{
+    background-color: black;
+    width: 137px;
+    height: 4px;
+}
+.h3{
+    font-size: 48px;
+    line-height: 1;
+    color: #1f4676;
+    font-weight:100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.divp{
+    font-weight: 200;
+    color:#111827 ;
+}
+.button{
+    padding-left: 4rem;       
+    padding-right: 4rem;
+    margin-top: 28px;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 0.75rem;     
+    padding-bottom: 0.75rem;
+    align-items: center;   
+    margin-right: 20px;
+    background-color: #1f4676;
+    color: white;
+    font-weight: 100;         
+}
+ .button:hover {
+    background-color: #d4d3ca;
+    color:  #1f4676;
+    
+  }
+ 
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .main{
+        height: 600px;
+        margin-top: 80px;
+        margin-bottom:  80px 
+    }
+    .section{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .imgdiv{
+            padding:  64px;
+        }
+    .img{
+            display: flex;
+            width: 500px;
+            height: 450px;
+        }
+    .herodiv{
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;  
+        flex-direction: column;  
+        overflow: hidden;
+        } 
+        .heroslide{margin-top:  50px;}
+    .divh1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .h3{
+    font-size: 72px;
+    line-height: 1;
+    }
+    .divp {
+    margin-top: 20px;
+    margin-bottom:  20px;
+    margin-left: 8px;
+    font-size: 20px;
+    line-height:  28px;
+    }
+    .buttonmd{
+    margin-top: 56px;
+    margin-left: 8px;
+    }}
