@@ -35,6 +35,7 @@
   justify-content: space-between;
 }
 .div3{
+  
   height: 0.75rem ;
   background-color: rgb(107 114 128)
 }
@@ -48,10 +49,11 @@
 }
 .img{
   height: auto; 
-  margin-left: auto;
+  margin-left: 11px;
   margin-right: auto;
-  height: 567px;
-  width: 388px;
+  margin-bottom: 11px;
+  height: 560px;
+  width: 373px;
   /* height: 570px;
   width: 287px; */
 }
